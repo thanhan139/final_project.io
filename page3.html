@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang 3 - Grid Gallery - Demo CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+  
+  <header>
+    <h1>CSS Grid Image Gallery</h1>
+    <nav aria-label="Điều hướng chính">
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="page2.html">Trang Flex</a></li>
+        <li><a href="page3.html#gallery">Thư viện Grid</a></li>
+        <li><a href="index.html#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main id="main-content">
+    <section id="gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Thư viện Hình Ảnh Grid (8 ảnh với nth-child)</h2>
+      <p>Gallery sử dụng CSS Grid (4 cols responsive), nth-child cho styles khác nhau, hover thú vị, nhiều màu sắc rực rỡ!</p>
+      
+      <ul class="grid-gallery image-gallery">
+        <li>
+          <img src="https://tse1.mm.bing.net/th/id/OIP.KdRE7KHqL-46M8nrvOX2CgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Mèo dễ thương ">
+          <p>Mèo 1</p>
+        </li>
+        <li>
+          <img src="https://tse1.mm.bing.net/th/id/OIP.cpS-iL92DWob56VF3ORV0AHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Chó vui vẻ ">
+          <p>Chó 1</p>
+        </li>
+        <li>
+          <img src="https://th.bing.com/th/id/OIP.eVk8O5zRBTc_UEAKl1UTOgHaEP?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Hoa rực rỡ ">
+          <p>Hoa 1</p>
+        </li>
+        <li>
+          <img src="https://tse3.mm.bing.net/th/id/OIP.hq4IPQ5D3zwShiL30ZdTugHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Xe hơi thể thao">
+          <p>Xe hơi</p>
+        </li>
+        <li>
+          <img src="https://tse1.mm.bing.net/th/id/OIP.T3oOygar_ruXUrEMHfqKWAHaEO?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Công nghệ hiện đại">
+          <p>Công nghệ</p>
+        </li>
+        <li>
+          <img src="https://tse3.mm.bing.net/th/id/OIP.oP_GEdRai26hO0kxy8cw_gHaEo?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Vũ trụ huyền bí">
+          <p>Vũ trụ</p>
+        </li>
+        <li>
+          <img src="https://toplist.vn/images/800px/hoi-hoa-193552.jpg" alt="Nghệ thuật trừu tượng">
+          <p>Nghệ thuật</p>
+        </li>
+        <li>
+          <img src="https://tse1.explicit.bing.net/th/id/OIP.8oOU2gol4Ls6-2mqbxgyHwHaIO?w=600&h=667&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Chân dung nghệ sĩ">
+          <p>Chân dung</p>
+        </li>
+      </ul>
+    </section>
+    
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">Về CSS Grid</h2>
+      <p>Grid mạnh mẽ cho 2D layouts với columns/rows dễ dàng.</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Demo CSS - Trang 3: Grid Gallery (8 ảnh nhiều màu, nth-child).</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang 2 - Flex Gallery - Demo CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+  
+  <header>
+    <h1>Flexbox Image Gallery</h1>
+    <nav aria-label="Điều hướng chính">
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="page2.html#gallery">Thư viện Flex</a></li>
+        <li><a href="page3.html">Trang Grid</a></li>
+        <li><a href="index.html#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main id="main-content">
+    <section id="gallery" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Thư viện Hình Ảnh Flexbox (4 ảnh)</h2>
+      <p>Gallery sử dụng Flexbox với wrap, hover effects, nth-child colors. Nhiều màu sắc!</p>
+      
+      <ul class="flex-gallery image-gallery">
+        <li>
+          <img src="https://phunugioi.com/wp-content/uploads/2021/08/hinh-anh-nui-non-trung-diep-xen-lan-suong-mu-dep-nhu-canh-tien.jpg" alt="Núi non hùng vĩ lúc bình minh">
+          <p>Núi non 1</p>
+        </li>
+        <li>
+          <img src="https://wallpaperaccess.com/full/115007.jpg" alt="Đại dương xanh thẳm">
+          <p>Đại dương</p>
+        </li>
+        <li>
+          <img src="https://tse4.mm.bing.net/th/id/OIP.989ewEg6wYZP6QcyrQRYdQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Rừng cây xanh tươi">
+          <p>Rừng xanh</p>
+        </li>
+        <li>
+          <img src="https://tse3.mm.bing.net/th/id/OIP.I75riZ8Lr3GYWi_ePy7ObwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Hoàng hôn rực rỡ">
+          <p>Hoàng hôn</p>
+        </li>
+      </ul>
+    </section>
+    
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">Về Flexbox</h2>
+      <p>Flexbox lý tưởng cho 1D layouts như navigation và galleries linh hoạt.</p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Demo CSS - Trang 2: Flex Gallery (4 ảnh với màu sắc).</p>
+  </footer>
+</body>
+</html>
